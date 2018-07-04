@@ -1,2 +1,0 @@
-# MarvelAPI
-Created with CodeSandbox
