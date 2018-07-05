@@ -9,15 +9,24 @@
 </head>
 <body>
 	<h1 class="title">Hello Avenger!</h1>
-	<form class="form-align" action="" data-form="">
-		<input placeholder="Choose a character" type="text" name="heroName">
-		<button>CHARACTER</button>
-	</form>
-	<form class="form-align" action="" data-form="">
-		<input placeholder="Choose an event" type="text" name="eventName">
-		<button>EVENT</button>
-	</form>
+	<div class="All">
+		<div>
+			<form id="FormC" class="form-align" action="" data-form="">
+				<input placeholder="Choose a character" type="text" name="heroName">
+				<button>CHARACTER</button>
+			</form>
+			<form class="form-align" action="" data-form="">
+				<input placeholder="Choose an event" type="text" name="eventName">
+				<button>EVENT</button>
+			</form>
+		</div>
+		<div class="togg">
+			<br><button onclick="toggle()">EVENT</button>
+		</div>
+	</div>
 
 	<script src="./assets/javascript/app.js"></script>
+	<script>function toggle() { var x = document.getElementById("FormC"); if (x.style.display === "none") { x.style.display = "block";
+	} else { x.style.display = "none"; } }</script>
 </body>
 </html>

@@ -91,3 +91,11 @@ button:hover {
   background-color: white;
   color: black;
 }
+
+.All {
+  display: inline-flex;
+}
+
+.togg {
+  margin-left: 20px;
+}
